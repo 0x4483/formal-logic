@@ -1,7 +1,9 @@
 ## Formal Logic 
 
 1. Sentential Logic 
-2. Syntax and Semantics
+  a. Syntax and Semantics
+  b. Proofs and Strategies
+2. Predicate Logic
 
 
 ### Sentential Logic
