@@ -1,2 +1,3 @@
 ## Formal Logic 
 
+φ
