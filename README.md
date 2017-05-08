@@ -2,8 +2,8 @@
 
 1. Sentential Logic 
 
-  a. Syntax and Semantics
-  b. Proofs and Strategies
+  + Syntax and Semantics
+  + Proofs and Strategies
   
 2. Predicate Logic
 
