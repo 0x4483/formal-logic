@@ -6,6 +6,13 @@
 2. Predicate Logic
 
 
+1. First ordered list item
+2. Another item
+⋅⋅* Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+⋅⋅1. Ordered sub-list
+4. And another item.
+
 ### Sentential Logic
 
 Formal Logic has two essential components: sentential logic and predicate logic. We will first examine sentential logic below. 
