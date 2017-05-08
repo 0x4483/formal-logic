@@ -1,7 +1,7 @@
 ## Formal Logic 
 
 1. Sentential Logic 
-  a. Syntax and Semantics
+2. Syntax and Semantics
 
 
 ### Sentential Logic
