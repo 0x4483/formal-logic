@@ -24,10 +24,20 @@ Claim: For all finite sets Γ of formulae and for all formulae T, T is a logical
 
 Now, we are transiting to predicate logic. Predicate Logic extends the library from sentential logic to include constant (a, b, d ... t) and variables(u, v, w, x, y, z) and predicate letters (for n > 0, A^n, B^n) and sentential capitalized letters(A, B, ...). Therefore, predicate logic becomes more interesting. In addition, we introduced universal and extensial quantifiers. For the semantics part of the predicate logic, we rely on the interpretation to decide the truth value. I is the interpreation of a predicate logic formulae. It is like a truth function that takes a n-place predicate letters. For examle, L(x, y) can be interpreted as `<x, y>`. 
 
-
 __Claim__: For all finite sets Γ of formulae and for all formulae T, T is a logical consequence of Γ if and only if there is no counterexample to Γ, T. (Γ is the set of premises T1, … , ψn of the argument with the conclusion T.)
 
 __Proof__: We recognize that this requires us to discuss in the predicate logic's domain. Since we know there is no counter example to Γ (we cannot found an interpretation such that premises of Γ Ai to be true and B the conclusion of Γ to be false). Therefore, we conclude that whenever the premises of Γ Ai is true, B the conclusion is also true on interpretation. Hence, by definition, T is a logical consequence of Γ. Similarly, we can prove the other direction with respect to interpretation in the domain of predicate logic discussion. 
+
+__Claim__:  For all formulae A and B, A is logically equivalent to B if and only if the biconditional (A <-> B) is a logical truth (tautology). 
+
+__Proof__:  We won't go into details of this proof but the general strategy of solving it. First, different from the mathematcis we are used to, the point of the proof is to understand how to interpret biconditional and logical equivalence in term of predicate logic. The essential idea relies, again, in the definition of each terms with respect to interpretation. To say A is logically equivalent to B, we meant that `I(A) = I(B)`. Remember the proof is straight forward as long as we remember that the interpretation I is just a truth assignment function that either take on atomic letter or n-place tuples. 
+
+
+
+
+
+
+
 
 
 
