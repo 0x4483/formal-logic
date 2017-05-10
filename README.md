@@ -37,6 +37,8 @@ __Proof__:  We won't go into details of this proof but the general strategy of s
 
 __Theorem__: Every number greater than 1 can be written as the product of powers of distinct primes. Assume for contradiction that there exists a least number x0 that cannot be represented in that form. If x0 is prime, we reach contradiction immediately. If x0 is not a prime, then there exists a prime number smaller than x0 such that x0 = pr. Since x0 is the least such non-representation, r can be represented, with product of pr, we know that x0 can be represented in such form, which contradicts with our orginal assumption. 
 
+However, our goal is to prove the uniqueness of prime factorization. Therefore, we can assume that a natural number can be represented in two different ways. If we order the product of primes in increasing order then we know if pi divides qi, then pi = qi by corollary 9. Therefore, we know the base must all be equal. Now, if we can show the exponents are also equal we are done. We can do so by assume they are not equal, then we can divide both sides to reduce the exponents term to a smaller value. However, then for that pi, it exists on one side but not the other. Therefore, we shows a prime that divides one side of an equality but not the other. This cannot happen and hence we derived a contradiction, which allowing us to conclude the claim. 
+
 
 
 
