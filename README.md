@@ -2,6 +2,7 @@
 
 1. Sentential Logic 
 2. Predicate Logic
+3. A Glimpse of Elementary Theory of Numbers
 
 
 ### 1. Sentential Logic
@@ -32,6 +33,9 @@ __Claim__:  For all formulae A and B, A is logically equivalent to B if and only
 
 __Proof__:  We won't go into details of this proof but the general strategy of solving it. First, different from the mathematcis we are used to, the point of the proof is to understand how to interpret biconditional and logical equivalence in term of predicate logic. The essential idea relies, again, in the definition of each terms with respect to interpretation. To say A is logically equivalent to B, we meant that `I(A) = I(B)`. Remember the proof is straight forward as long as we remember that the interpretation I is just a truth assignment function that either take on atomic letter or n-place tuples. 
 
+###  A Glimpse of Elementary Theory of Numbers
+
+__Theorem__: Every number greater than 1 can be written as the product of powers of distinct primes. Assume for contradiction that there exists a least number x0 that cannot be represented in that form. If x0 is prime, we reach contradiction immediately. If x0 is not a prime, then there exists a prime number smaller than x0 such that x0 = pr. Since x0 is the least such non-representation, r can be represented, with product of pr, we know that x0 can be represented in such form, which contradicts with our orginal assumption. 
 
 
 
