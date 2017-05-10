@@ -1,6 +1,6 @@
 ## Formal Logic 
 
-1. Sentential Logic 
+1. [Sentential Logic](sentential-logic)
 2. Predicate Logic
 3. A Glimpse of Elementary Theory of Numbers
 
