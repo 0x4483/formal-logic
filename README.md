@@ -4,7 +4,7 @@
 2. Predicate Logic
 3. A Glimpse of Elementary Theory of Numbers
 4. Set Theory Functions
-
+5. Set Theory Sizes
 
 ### 1. Sentential Logic
 
@@ -20,7 +20,7 @@ The semantics of the formal logic focuses intensely on the truth value assignmen
 
 To best illustrate the proof techniques we employ in formal logic, we can give one easy example to illustrate. Suppose that we havea finite conjunctions of literal where literal is either an atomic formula or the negation of an atomic formula. We want to show that if such conjunction is both a tauotology then there is sential letter C and not C that are in the conjunction. We want prove by __extracting__ the postive subformula or the goal. In other words, we assume there is a finite conjunction of literal such that it is tautological, and our current goal is to show that C and not C are in the conjuntion. We then apply __refutation__ technique to assume that C and not C are not in the conjunction. Since our conjunction of literals may or may not contain negated forms. Therefore, we construct our truth assignment function sigma such that we assign FALSE to all literal that do not contain negation and truth to the literal that do contain negated form. Hence, C or not C are both FALSE. Tracing up the sparse tree, we obtain FALSE at the root. Contradicting with our assumption that the formula is tautological. Therefore, by refutation, we conclude the claim to be true; thereby, ending our proof. 
 
-### Predicate Logic
+### 2. Predicate Logic
 
 Claim: For all finite sets Γ of formulae and for all formulae T, T is a logical consequence of Γ if and only if there is no counterexample to Γ, T. (Γ is the set of premises T1, … , ψn of the argument with the conclusion T.)
 
@@ -34,13 +34,13 @@ __Claim__:  For all formulae A and B, A is logically equivalent to B if and only
 
 __Proof__:  We won't go into details of this proof but the general strategy of solving it. First, different from the mathematcis we are used to, the point of the proof is to understand how to interpret biconditional and logical equivalence in term of predicate logic. The essential idea relies, again, in the definition of each terms with respect to interpretation. To say A is logically equivalent to B, we meant that `I(A) = I(B)`. Remember the proof is straight forward as long as we remember that the interpretation I is just a truth assignment function that either take on atomic letter or n-place tuples. 
 
-###  A Glimpse of Elementary Theory of Numbers
+### 3. A Glimpse of Elementary Theory of Numbers
 
 __Theorem__: Every number greater than 1 can be written as the product of powers of distinct primes. Assume for contradiction that there exists a least number x0 that cannot be represented in that form. If x0 is prime, we reach contradiction immediately. If x0 is not a prime, then there exists a prime number smaller than x0 such that x0 = pr. Since x0 is the least such non-representation, r can be represented, with product of pr, we know that x0 can be represented in such form, which contradicts with our orginal assumption. 
 
 However, our goal is to prove the uniqueness of prime factorization. Therefore, we can assume that a natural number can be represented in two different ways. If we order the product of primes in increasing order then we know if pi divides qi, then pi = qi by corollary 9. Therefore, we know the base must all be equal. Now, if we can show the exponents are also equal we are done. We can do so by assume they are not equal, then we can divide both sides to reduce the exponents term to a smaller value. However, then for that pi, it exists on one side but not the other. Therefore, we shows a prime that divides one side of an equality but not the other. This cannot happen and hence we derived a contradiction, which allowing us to conclude the claim. 
 
-### Set Theory Functions 
+### 4. Set Theory Functions 
 
 1. theorem 2.2: for any given sets a, b, c, d. If order pair [a, b] = [c, d] then a = c and b = d. 
 2. lemma 2.4: given sets a and b, there is a set y of all and only those ordered pairs having their first elemet in a and their second element in b. 
@@ -62,7 +62,22 @@ Partition is the next big topic in the set theory. A partition of a set a is a s
 The proof the this relies on the know clearly what the definition of a partition is. We need to prove two things. First, we need to show that Union of pi on r equals to a. In addition, if two equivalence classes are not equal then their shared set is empty. To show the first part, since we know that U pi subsets a which is given. Hence, all we need to show is that a susbsets U pi. Let x in a, we show x in U pi because r(x,x) since equivalence relation. Therefore, we are done with the first part. Next, we show the contrapositive is true. Namely, we show that if their joined set is not empty, then they must be equal. We use properties of r (equivalence relations) to demonstrate that x subsets y and similarly y subsets x. Hence [x] = [y]. 
 
 
+`Claim: let r subsets a x b and s subsets b x c, be two total and single value relations. Want to show s r is total and single valued`
 
+The proof uses the definition of composition function and total property of each function respectively. The single value part is like-wsie. 
+
+ `Claim: For all sets a and all binary relations r subsets axa. The transitive closure of r exists.`
+ 
+ transcl(r) is the smallest transitive relation containing r. To show the proof, it suffcies to shows three things. For (U t), t is non-empty, (U t) is transitive and r susets (U t). First, since axa is non-empty and contains r, so t is non-empty. Second, we show tht (U t) is transitive. Assume (x, y), (y, z) in (U t). By definition of t, each subset of t is transitive, so we can derive (x, z) in (U t). Notice here () means ordered pairs. Hence, we proved the claim. 
+ 
+ The next proposition is a bit tricker to think about. If r is transitive, then trancl(r) = r. We assume r is transitive then we know by definition that r subsets transcl(r). In addition, we know that transcl(r) subsets r based on its definition, since r is an element of t so r subsets (hat t) so transcl(r) subsets r. 
+ 
+ 
+### 5. Set Theory Sizes
+ 
+ 
+ 
+ 
 
 
 
