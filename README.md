@@ -51,6 +51,12 @@ Before introducting the definition of Cartesian product, we first show that its 
 
 `Cartesian Product: (\all x)(x \in axb <-> (\exists y \in a)(\exists z \in b)(x = <y, z>)`
 
+n-tuples can easily be represented by ordered pairs. In addition, a total relation is simply one that everything int he domain is mapped to some value in the codomain, and singled value states that every x is mapped to a unique y. Partial ordering is reflexive, antisymmetric and transitive. Notice here antisymmetric implies that if f(x) = y and f(y) = x, then x = y. The classic example is subset: if x subset y and y subset x then x equals to y. 
+
+Then, we proved that subset is a partial ordering set. The proof follows from the basic property of set theory with the only difference being that we invoke the domain to be the P(a). To grow a partially ordering set into an ordering set, we just need to show that the partial ordering set is linear, which means that all x and y in a, either r(x, y) or r(y, x). For example, on natural number, >= is a linear relation since every number is either >=  or <=. 
+
+We then move on to proving that 
+
 
 
 
