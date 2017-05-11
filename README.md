@@ -1,8 +1,9 @@
 ## Formal Logic 
 
-1. [Sentential Logic](sentential-logic)
+1. Sentential Logic
 2. Predicate Logic
 3. A Glimpse of Elementary Theory of Numbers
+4. Set Theory Functions
 
 
 ### 1. Sentential Logic
@@ -39,6 +40,16 @@ __Theorem__: Every number greater than 1 can be written as the product of powers
 
 However, our goal is to prove the uniqueness of prime factorization. Therefore, we can assume that a natural number can be represented in two different ways. If we order the product of primes in increasing order then we know if pi divides qi, then pi = qi by corollary 9. Therefore, we know the base must all be equal. Now, if we can show the exponents are also equal we are done. We can do so by assume they are not equal, then we can divide both sides to reduce the exponents term to a smaller value. However, then for that pi, it exists on one side but not the other. Therefore, we shows a prime that divides one side of an equality but not the other. This cannot happen and hence we derived a contradiction, which allowing us to conclude the claim. 
 
+### Set Theory Functions 
+
+1. theorem 2.2: for any given sets a, b, c, d. If order pair [a, b] = [c, d] then a = c and b = d. 
+2. lemma 2.4: given sets a and b, there is a set y of all and only those ordered pairs having their first elemet in a and their second element in b. 
+
+We introduced the concept of ordered pairs because they allow us to define cartesian products using sets. The first lemma tell us that if two sets are equal, the elements inside are equal. If two sets of different size are equal, then the larger once must be able to reduce to a smaller set. Therefore, there are similar elements in the sets, and if two sets of size 2 share the same element, the other one must also be the same. Theorem states that if two ordered pairs are equal than the elements are equal correspondingly. The proof follows the definition of ordered pairs. `<a, b> := {x in <a, b> <-> x = {a}  or x = {a, b}}`. The trick relis on taking an instance of x which is {a}. Then the left handside becomes easy to prove to be TRUE. THen we have `{a} in {{c}. {c, d}}`. Then we know `{a}` must be either of the two. If its the first element, than we know a is c, otherwise we can use the second compoenent of the lemma to reduce the size and conclude that a = c in either case. Therefore, a is always c. As for proving b = d, we can use the third compoenent of the lemma to achieve our goal. Hence, we have showed the uniqueness of ordered pairs. 
+
+Before introducting the definition of Cartesian product, we first show that its exists. That is given sets a and b, there is a set y of all and only those ordered pairs having their first elemet in a and their second element in b. The proof of this invokes the definition of power-sets. We basically shows that z1 and z2 are elements of the powerset. By showing so, the proof follows immediately. Becasuse z1 is an element of a to begin with and z2 is also an element of b to begin with. 
+
+`Cartesian Product: (\all x)(x \in axb <-> (\exists y \in a)(\exists z \in b)(x = <y, z>)`
 
 
 
