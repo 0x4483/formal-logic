@@ -55,7 +55,15 @@ n-tuples can easily be represented by ordered pairs. In addition, a total relati
 
 Then, we proved that subset is a partial ordering set. The proof follows from the basic property of set theory with the only difference being that we invoke the domain to be the P(a). To grow a partially ordering set into an ordering set, we just need to show that the partial ordering set is linear, which means that all x and y in a, either r(x, y) or r(y, x). For example, on natural number, >= is a linear relation since every number is either >=  or <=. 
 
-We then move on to proving that 
+Partition is the next big topic in the set theory. A partition of a set a is a subset of P(a) such that (U pi = a) for all x, y in pi. Partition and Equivalence Class is intricate relationship with one another. Therefore, we divide our attention to proving the equality of the two.
+
+`Claim: Let a be a set and r be an equivalence relation on a. Then the set of r-equivalence class Pr = {[x]r | x in a } is a partition of a.`
+
+The proof the this relies on the know clearly what the definition of a partition is. We need to prove two things. First, we need to show that Union of pi on r equals to a. In addition, if two equivalence classes are not equal then their shared set is empty. To show the first part, since we know that U pi subsets a which is given. Hence, all we need to show is that a susbsets U pi. Let x in a, we show x in U pi because r(x,x) since equivalence relation. Therefore, we are done with the first part. Next, we show the contrapositive is true. Namely, we show that if their joined set is not empty, then they must be equal. We use properties of r (equivalence relations) to demonstrate that x subsets y and similarly y subsets x. Hence [x] = [y]. 
+
+
+
+
 
 
 
