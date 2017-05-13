@@ -74,8 +74,13 @@ The proof uses the definition of composition function and total property of each
  
  
 ### 5. Set Theory Sizes
- 
- 
+
+The goal of this section is to arrive to the proof of Dedekind's Recursion Theorem. In contrary to our previous style, we will jump right into this proof. 
+
+### 6. Set Theory
+
+
+
  
  
 
